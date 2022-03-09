@@ -20,11 +20,11 @@ django-model-utils==3.2.0
 django-mysql==3.11.1
 django-mptt==0.13.4
 django-notifications-hq==1.6.0
+django-auth-ldap
 django-rest-auth==0.9.5
 django-storages==1.11.1
 django-widget-tweaks==1.4.3
 djangorestframework==3.12.2
-django-auth-ldap
 gunicorn==19.9.0
 importlib-metadata==2.0.0
 ipython==7.7.0
