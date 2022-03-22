@@ -102,11 +102,11 @@
 								{% if language_is_rtl %}
 
 								<tr align=right>
-									<td bgcolor="#003B6D" class="p20-15" style="padding: 15px 20px 12px; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:18px; line-height:22px; font-weight: bold; color: #ffffff; text-align:{{alignment}}; background-color: #003B6D;">{% trans "Notification from Auraa" %}</td>
+									<td bgcolor="#003B6D" class="p20-15" style="padding: 15px 20px 12px; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:18px; line-height:22px; font-weight: bold; color: #ffffff; text-align:{{alignment}}; background-color: #003B6D;">{% trans "Notification from DOH" %}</td>
 								</tr>
 								{% else %}
 								<tr align=left>
-									<td bgcolor="#003B6D" class="p20-15" style="padding: 15px 20px 12px; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:18px; line-height:22px; font-weight: bold; color: #ffffff; text-align:{{alignment}}; background-color: #003B6D;">{% trans "Notification from Auraa" %}</td>
+									<td bgcolor="#003B6D" class="p20-15" style="padding: 15px 20px 12px; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:18px; line-height:22px; font-weight: bold; color: #ffffff; text-align:{{alignment}}; background-color: #003B6D;">{% trans "Notification from DOH" %}</td>
 								</tr>
 								{% endif %} 								
 								{% comment %} <tr>
@@ -149,9 +149,9 @@
 									<td height="20" style="height: 20px;"></td>
 								</tr>
 								<tr>
-								{% if language_is_rtl%}
+								{% comment %} {% if language_is_rtl%} {% endcomment %}
 
-								<tr>
+								{% comment %} <tr>
 									<td class="text-left"style="color:#8e8e93; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:12px; line-height:18px; text-align:{{alignment}}; padding-bottom:10px;">{% trans "Download your Auraa app now." %}</td>
 								</tr>
 								{% else %}
@@ -161,7 +161,7 @@
 								</tr>
 								{% endif %}
 									{% comment %} <td class="text-left"style="color:#8e8e93; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:12px; line-height:18px; text-align:center; padding-bottom:10px;">{% trans "Download your Auraa app now." %}</td> {% endcomment %}
-								</tr>
+								{% comment %} </tr> {% endcomment %} 
 								
 								<tr>
 								{% if language_is_rtl%}
@@ -213,12 +213,12 @@
 
 								<tr>
 									<td class="text" style="color:#8e8e93; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:12px; line-height:18px; text-align:{{alignment}}; padding-bottom:10px;">
-										{% trans "You are receiving Auraa notification emails." %} <br/>
+										{% trans "You are receiving DOH notification emails." %} <br/>
 								</tr>
 								{% else %}
 								<tr>
 									<td class="text" style="color:#8e8e93; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:12px; line-height:18px; text-align:{{alignment}}; padding-bottom:10px;">
-										{% trans "You are receiving Auraa notification emails." %} <br/>
+										{% trans "You are receiving DOH notification emails." %} <br/>
 								</tr>
 								{% endif %}
 									{% comment %} <td class="text" style="color:#8e8e93; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:12px; line-height:18px; text-align:center; padding-bottom:10px;">
@@ -230,14 +230,14 @@
 
 								<tr>
 									<td class="text" style="color:#8e8e93; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:12px; line-height:18px; text-align:{{alignment}}; padding-bottom:10px;">
-										{% trans "© 2020 Auraa. Auraa is a registered business name of Auraa USA Unlimited Company." %} <br/>
-										{% trans "Auraa and the Auraa logo are registered trademarks of Auraa." %}
+										{% trans "© 2020 DOH. DOH is a registered business name of DOH USA Unlimited Company." %} <br/>
+										{% trans "DOH and the DOH logo are registered trademarks of DOH." %}
 								</tr>
 								{% else %}
 								<tr>
 									<td class="text" style="color:#8e8e93; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:12px; line-height:18px; text-align:{{alignment}}; padding-bottom:10px;">
-										{% trans "© 2020 Auraa. Auraa is a registered business name of Auraa USA Unlimited Company." %} <br/>
-										{% trans "Auraa and the Auraa logo are registered trademarks of Auraa." %}
+										{% trans "© 2020 DOH. DOH is a registered business name of DOH." %} <br/>
+										{% trans "DOH and the DOH logo are registered trademarks of DOH." %}
 								</tr>
 								{% endif %}
 									{% comment %} <td class="text" style="color:#8e8e93; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:12px; line-height:18px; text-align:center; padding-bottom:10px;">
