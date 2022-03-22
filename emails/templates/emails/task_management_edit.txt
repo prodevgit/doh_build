@@ -45,11 +45,11 @@
                                                                     {{item_instance.action_object.description}}
                                                                 </td>
                                                             </tr>
-                                                            <tr>
+                                                            {% comment %} <tr>
                                                                 <td class=”button” colspan="2" style="border-radius: 50px; padding-bottom:30px;">
                                                                     <a href="{{TARGET_URL}}" class="button-text" style="color:#ffffff; text-decoration:none; background-color: #0B3A62; padding: 8px 15px 6px; border-radius: 50px; font-size:12px; font-family: 'Calibri', Helvetica, Arial, sans-serif; line-height:14px;" target="_blank">{% trans "View Notification" %}</a>
                                                                 </td>
-                                                             </tr>
+                                                             </tr> {% endcomment %}
                                                          </table>
                                                      </td>
                                                  </tr>
