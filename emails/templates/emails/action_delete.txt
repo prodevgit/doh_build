@@ -71,7 +71,7 @@
                 </tr>
                 <tr>
                     <td class="text"style="color:#333333; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:14px; line-height:22px; text-align:{{alignment}}; padding-bottom:15px;"">{% trans "Thank you," %} <br/>
-                        {% trans "Team Auraa" %}</td>
+                        {% trans "Team DOH" %}</td>
                 </tr>
                 <tr>
                     <td height="10" style="height: 10px;"></td>
