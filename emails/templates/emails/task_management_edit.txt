@@ -40,7 +40,7 @@
                                                                 </td>
                                                             </tr>
                                                             <tr>
-                                                                <td class="text" style="color:#333; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:14px; line-height:22px; text-align:{{alignment}}; padding-left:100px; padding-bottom:15px;">
+                                                                <td class="text" style="color:#333; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:14px; line-height:22px; text-align:{{alignment}}; padding-bottom:15px;">
                                                                     <div style="color:#999; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:12px; line-height:18px; text-align:{{alignment}}; padding-bottom:0px;">{% trans "Policy Source" %} : </div>
                                                                     {{item_instance.action_object.description}}
                                                                 </td>
@@ -67,7 +67,7 @@
                 </tr>
                 <tr>
                     <td class="text"style="color:#333333; font-family: 'Calibri', Helvetica, Arial, sans-serif; font-size:14px; line-height:22px; text-align:{{alignment}}; padding-bottom:15px;"">{% trans "Thank you," %} <br/>
-                        {% trans "The Team DOH" %}</td>
+                        {% trans "Team DOH" %}</td>
                 </tr>
                 <tr>
                     <td height="10" style="height: 10px;"></td>
